@@ -1,0 +1,75 @@
+.main{
+    background-color: black;
+    color:white;
+    padding:1vh 10vh;
+    text-align: center;
+    min-width: 50vh;
+    margin-left:15%;
+    margin-right:15%;
+}
+#lap{
+    visibility: hidden;
+}
+.curr{
+    margin-top: 0;
+    font-size: 4em;
+    font-family:sans-serif;
+    color:#df6e3c;
+    size: 2rem;
+}
+.control{
+    color:white;
+    padding:3vh 0vh;
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+}
+.task{
+    text-align: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    font-size: 200%;
+    display: flex;
+    justify-content: space-between;
+}
+.lapName{
+    color: grey;
+}
+.btn {
+    color:white;
+    background-color: #353535;
+    font-size: medium;
+    align-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #353535;
+}
+.btnr{
+    color:#ca2d25;
+    background-color: #351614;
+    font-size: medium;
+    align-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #351614;
+}
+.btng{
+    color:#32CD32;
+    background-color: rgb(0,255,0,0.25);
+    font-size: medium;
+    align-content: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(0,255,0,0.25);
+}
+h1{
+    text-align: center;
+}
+hr {
+    height:2px;
+    background-color: #353535;
+    border:none;
+}
